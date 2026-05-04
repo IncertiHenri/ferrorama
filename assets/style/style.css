@@ -1,0 +1,12 @@
+:root{
+    --fundo: #29201d;
+    --verdeMusgo: #706f3f;
+}
+
+#bodyLogin{
+    background-color: var(--fundo);
+}
+
+.campoLogin{
+    background-color: var(--verdeMusgo);
+}
