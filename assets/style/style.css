@@ -12,7 +12,7 @@
 
 #body-login {
     background-color: var(--fundo);
-    padding: 20px;
+    padding: 50px;
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     display: flex;
     justify-content: space-between;
@@ -111,8 +111,9 @@ label{
 
 #imagem-estacao{
     margin-left: 30px;
-    width: 1200px;
-    height: 600px;
+    width: 1100px;
+    height: 800px;
+    border-radius: 35px;
 }
 
 
