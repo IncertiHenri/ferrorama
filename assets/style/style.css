@@ -1,20 +1,20 @@
 :root{
     --fundo: #29201d;
-    --verdeMusgo: #706f3f;
+    --verde-musgo: #706f3f;
     --branco: #ffffff;
 }
 
 
-#bodyLogin{
+#body-login{
     background-color: var(--fundo);
     padding: 20px;
 }
 
-.campoLogin{
-    background-color: var(--verdeMusgo);
+.campo-login{
+    background-color: var(--verde-musgo);
 }
 
-.tituloLogin{
+.titulo-login{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     font-weight: 100;
     color: var(--branco);
@@ -23,8 +23,8 @@
     padding: 0;
 }
 
-.titulo2Login{
-    color: var(--verdeMusgo);
+.titulo2-login{
+    color: var(--verde-musgo);
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     font-size: 50px;
     margin: 0;
@@ -33,7 +33,7 @@
     margin-left: 5px;
 }
 
-.subtituloLogin{
+.subtitulo-login{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
     color: var(--branco);
     margin: 0;
@@ -53,6 +53,6 @@
     padding-right: 10px;
 }
 
-.informacaoSiteLogin{
+.informacao-site-login{
     display: inline-block;
 }
