@@ -13,11 +13,19 @@
 #body-login{
     background-color: var(--fundo);
     padding: 20px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    display: flex;
+    justify-content: space-between;
 }
 
 .campo-login{
     background-color: var(--verde-musgo);
-    background-color: var();
+    color: var(--branco);
+    padding: 30px;
+    border-radius: 25px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
 }
 
 .titulo-login{
@@ -63,8 +71,49 @@
     display: inline-block;
 }
 
+#login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
 
+#botao-login{
+    background-color: var(--amarelo-bebe);
+    border: 0;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
 
+#email{
+    background-color: var(--fundo);
+    border: 0;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    color: var(--branco);
+    font-size: 20px;
+}
+
+#senha{
+    background-color: var(--fundo);
+    border: 0;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    color: var(--branco);
+    font-size: 20px;
+}
+
+label{
+    font-size: 20px;
+}
+
+#imagem-estacao{
+    margin-left: 30px;
+    width: 1200px;
+    height: 600px;
+}
 
 
 
