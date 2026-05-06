@@ -1,4 +1,4 @@
-:root{
+:root {
     --fundo: #29201d;
     --verde-musgo: #706f3f;
     --branco: #ffffff;
@@ -10,18 +10,26 @@
 }
 
 
-#body-login{
+#body-login {
     background-color: var(--fundo);
     padding: 20px;
-}
-
-.campo-login{
-    background-color: var(--verde-musgo);
-    background-color: var();
-}
-
-.titulo-login{
     font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    display: flex;
+    justify-content: space-between;
+}
+
+.campo-login {
+    background-color: var(--verde-musgo);
+    color: var(--branco);
+    padding: 30px;
+    border-radius: 25px;
+    margin-top: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.titulo-login {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-weight: 100;
     color: var(--branco);
     font-size: 80px;
@@ -29,9 +37,9 @@
     padding: 0;
 }
 
-.titulo2-login{
+.titulo2-login {
     color: var(--verde-musgo);
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-size: 50px;
     margin: 0;
     padding: 0;
@@ -39,19 +47,19 @@
     margin-left: 5px;
 }
 
-.subtitulo-login{
-    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+.subtitulo-login {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--branco);
     margin: 0;
     padding: 0;
     margin-left: 30px;
 }
 
-.inline-flex{
+.inline-flex {
     display: inline-flex;
 }
 
-.trem{
+.trem {
     width: 60px;
     height: auto;
     margin: 0;
@@ -59,8 +67,52 @@
     padding-right: 10px;
 }
 
-.inline-block{
+.inline-block {
     display: inline-block;
+}
+
+#login{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+#botao-login{
+    background-color: var(--amarelo-bebe);
+    border: 0;
+    padding: 10px;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+#email{
+    background-color: var(--fundo);
+    border: 0;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    color: var(--branco);
+    font-size: 20px;
+}
+
+#senha{
+    background-color: var(--fundo);
+    border: 0;
+    padding: 5px;
+    border-radius: 15px;
+    margin-bottom: 20px;
+    color: var(--branco);
+    font-size: 20px;
+}
+
+label{
+    font-size: 20px;
+}
+
+#imagem-estacao{
+    margin-left: 30px;
+    width: 1200px;
+    height: 600px;
 }
 
 
@@ -201,10 +253,34 @@
 
 
 
+/* SERENNA  */
 
+#body-tela-inicial {
+    background-color: var(--verde-musgo)
+}
 
+.botao-cadastro-sensores {
+    background: var(--verde-medio-musgo);
+    color: var(--branco);
+    border: 4px solid var(--preto);
+    border-radius: 30px;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 100px 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    padding: 250px 50px;
+    font-weight: bold;
+}
 
-/* SERENNA
+.imagem-cadastro-sensores {
+    width: 120px;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
 
 
 
@@ -648,201 +724,3 @@
 
 
 /* ANNIE
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
