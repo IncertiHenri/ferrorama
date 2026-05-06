@@ -404,7 +404,50 @@
 
 
 
-/* THAIS
+/* THAIS */ 
+#cadastro-sensores{
+    background-color: var(--verde-musgo);
+    color: var(--branco);
+}
+
+.topo{
+    display: flex;
+    justify-content: flex-end;
+}
+
+#botao{
+    background-color: var(--fundo);
+    border-radius: 20px;
+    width: fit-content;
+    color: var(--branco);
+}
+
+#botao2{
+    background-color: var(--verde-musgo);
+    border-radius: 5px;
+    color: var(--branco);
+}
+.fundo-cadastros{
+    background-color: var(--verde-medio-musgo);
+    display: grid;
+    place-items: center; 
+    width: fit-content;
+    padding: 15px;
+    border-radius: 20px;
+}
+.cadastros{
+    background-color: var(--verde-escuro-musgo);
+    display: grid;
+    place-items: center; 
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+#img_usuario{
+    height: 40%;
+    width: 20%;
+}
 
 
 
