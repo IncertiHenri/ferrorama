@@ -6,6 +6,7 @@
     --verde-escuro-musgo: #39381b;
     --preto: #000000;
     --verde-medio-musgo: #504f25;
+    --verde-preto-musgo: #2f2f18;
 }
 
 
@@ -16,6 +17,7 @@
 
 .campo-login{
     background-color: var(--verde-musgo);
+    background-color: var();
 }
 
 .titulo-login{
