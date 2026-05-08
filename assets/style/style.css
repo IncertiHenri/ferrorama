@@ -116,14 +116,49 @@ label {
     border-radius: 35px;
 }
 
+.titulo-menu {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 100;
+    color: var(--branco);
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+}
 
+.titulo2-menu {
+    color: var(--verde-musgo);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+    margin-left: 5px;
+}
 
+.trem-menu {
+    width: 50px;
+    height: auto;
+    margin: 0;
+    padding: 0;
+    padding-right: 10px;
+    padding-left: 20px;
+    padding-top: 30px;
+}
 
+.subtitulo-menu {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--branco);
+    margin: 0;
+    padding: 0;
+    margin-left: 10px;
+    font-size: 10px;
+}
 
+.menu{
+    background-color: var(--fundo);
+    height: 100%;
 
-
-
-
+}
 
 
 
@@ -526,13 +561,6 @@ label {
     justify-content: flex-end;
 }
 
-#botao {
-    background-color: var(--fundo);
-    border-radius: 20px;
-    width: fit-content;
-    color: var(--branco);
-}
-
 #botao2 {
     background-color: var(--verde-musgo);
     border-radius: 5px;
@@ -560,6 +588,10 @@ label {
 #img_usuario {
     height: 40%;
     width: 20%;
+}
+
+#tipo_de_dado{
+    background-color: var(--verde-escuro-musgo);
 }
 
 
