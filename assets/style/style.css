@@ -293,6 +293,30 @@ label {
     gap: 30px;
 }
 
+#navbar-tela-inicial {
+    display: flex;
+    color: var(--branco);
+    padding: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.imagem-usuario {
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+
+}
+
+.botao-sair {
+    background-color: var(--fundo);
+    border-radius: 20px;
+    width: fit-content;
+    color: var(--branco);
+    margin-left: auto;
+}
+
+
 
 
 
