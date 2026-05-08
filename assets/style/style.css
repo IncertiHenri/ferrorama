@@ -154,7 +154,7 @@ label {
     font-size: 10px;
 }
 
-.menu{
+.menu {
     background-color: var(--fundo);
     height: 100%;
 
@@ -231,6 +231,32 @@ label {
 
 }
 
+.fundo-tabela-monitoramento {
+    background-color: var(--verde-medio-musgo);
+    display: grid;
+    place-items: center;
+    width: fit-content;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.tabela-monitoramento {
+    background-color: var(--verde-escuro-musgo);
+    display: grid;
+    place-items: center;
+    width: fit-content;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+table {
+    padding: 30px;
+    color: var(--branco);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    border-spacing: 40px 20px;
+}
+
 /* THAIS */
 #cadastro-sensores {
     background-color: var(--verde-musgo);
@@ -271,7 +297,7 @@ label {
     width: 20%;
 }
 
-#tipo_de_dado{
+#tipo_de_dado {
     background-color: var(--verde-escuro-musgo);
 }
 
