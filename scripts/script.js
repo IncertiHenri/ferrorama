@@ -21,3 +21,29 @@ document.getElementById("login").onsubmit = (e) => {
         return alert("E-mail ou senha incorretos!");
     }
 }
+
+function alerta(){
+    alert("Não é possível excluir sensores com dados registrados");
+}
+
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
