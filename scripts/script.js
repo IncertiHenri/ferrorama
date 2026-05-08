@@ -22,11 +22,41 @@ document.getElementById("login").onsubmit = (e) => {
     }
 }
 
-function alerta(){
+let formularioCadastro = document.getElementById("cadastro");
+
+if (formularioCadastro) {
+
+    formularioCadastro.onsubmit = (e) => {
+
+        e.preventDefault();
+
+        let nome = document.getElementById("nome").value;
+        let email = document.getElementById("email").value;
+        let senha = document.getElementById("senha").value;
+
+        if (!nome) {
+            return alert("Informe seu nome!");
+        }
+
+        if (!email || !email.includes("@")) {
+            return alert("Informe um e-mail válido!");
+        }
+
+        if (!senha) {
+            return alert("Informe uma senha!");
+        }
+
+        alert("Cadastro realizado com sucesso!");
+
+        window.location.href = "index.html";
+    };
+}
+
+function alerta() {
     alert("Não é possível excluir sensores com dados registrados");
 }
 
-    
+
 
 
 

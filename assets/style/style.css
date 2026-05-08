@@ -193,6 +193,22 @@ label {
 
 }
 
+.texto-cadastro {
+    margin-top: 20px;
+    color: white;
+    text-align: center;
+}
+
+.texto-cadastro a {
+    color: #d8c38e;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.texto-cadastro a:hover {
+    text-decoration: underline;
+}
+
 /* SERENNA  */
 
 #body-tela-inicial {
