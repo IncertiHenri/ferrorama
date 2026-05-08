@@ -237,15 +237,11 @@ label {
     color: var(--branco);
 }
 
-.topo {
-    display: flex;
-    justify-content: flex-end;
-}
-
 #botao2 {
     background-color: var(--verde-musgo);
     border-radius: 5px;
     color: var(--branco);
+    border: none;
 }
 
 .fundo-cadastros {
@@ -255,6 +251,8 @@ label {
     width: fit-content;
     padding: 15px;
     border-radius: 20px;
+     justify-content: center;
+      align-items: center;
 }
 
 .cadastros {
@@ -264,6 +262,9 @@ label {
     width: fit-content;
     padding: 10px;
     border-radius: 20px;
+    justify-content: center;
+      align-items: center;
+      
 }
 
 #img_usuario {
@@ -271,8 +272,17 @@ label {
     width: 20%;
 }
 
-#tipo_de_dado{
+#tipo-de-dado-caixa-texto{
     background-color: var(--verde-escuro-musgo);
+    border-radius: 5px;
+    border-color: var(--amarelo-bebe);
+}
+
+td{
+  text-indent: 15px;
+}
+#titulo-tabela #titulo-coluna{
+    font-weight: bold;
 }
 
 /* ANNIE*/
