@@ -5,7 +5,7 @@ Estudo elaborado pela equipe sobre a identidade visual do sistema (cores, tipogr
 ## Identidade Visual
 A identidade visual é o que gera o primeiro impacto no público. É por meio dela que os clientes e prospects entenderão, ainda que de forma subjetiva, todos os principais valores de uma marca, como a mensagem, a personalidade, o arquétipo e o posicionamento da organização. Por isso, podemos afirmar que uma identidade bem construída é a força e segurança da marca. 
 
-## Inspirações
+## jubarte
 Toda a construção da identidade visual precisa partir do conceito, que engloba a análise de alguns fatores. Nossas principais inspirações na construção da identidade visual do site consistiu de imagens na internet de trens. Percebemos que as pessoas tendem a ver os trens relacionados à paisagem ao longo do seu percurso. Por isso escolhemos verde, é cor da natureza viva e está associada à renovação, equilíbrio e harmonia. Verde também caracteriza segurança, algo que qualquer empresa de transporte busca transmitir para seus possíveis passageiros.
 
 
