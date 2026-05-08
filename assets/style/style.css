@@ -197,9 +197,15 @@ label {
 .container-botoes {
     display: flex;
     gap: 30px;
+    margin-top: 150px;
+    align-items: center;
+    justify-content: center;
 }
 
 #navbar-tela-inicial {
+    position: fixed;
+    right: 0;
+    top: 0;
     display: flex;
     color: var(--branco);
     padding: 40px;
@@ -214,12 +220,15 @@ label {
 
 }
 
-.botao-sair {
+#botao-sair {
     background-color: var(--fundo);
-    border-radius: 20px;
-    width: fit-content;
     color: var(--branco);
-    margin-left: auto;
+    border-radius: 30px;
+    border: none;
+    font-size: 20px;
+    padding: 20px;
+    cursor: pointer;
+
 }
 
 /* THAIS */
