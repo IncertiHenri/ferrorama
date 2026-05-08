@@ -561,13 +561,6 @@ label {
     justify-content: flex-end;
 }
 
-#botao {
-    background-color: var(--fundo);
-    border-radius: 20px;
-    width: fit-content;
-    color: var(--branco);
-}
-
 #botao2 {
     background-color: var(--verde-musgo);
     border-radius: 5px;
@@ -595,6 +588,10 @@ label {
 #img_usuario {
     height: 40%;
     width: 20%;
+}
+
+#tipo_de_dado{
+    background-color: var(--verde-escuro-musgo);
 }
 
 
