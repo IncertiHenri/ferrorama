@@ -1,3 +1,23 @@
+function alerta() {
+    alert("Não é possível excluir sensores com dados registrados");
+}
+
+function telaInicial() {
+     window.location.href = "../public/tela_inicial.html";
+}
+
+function cadastroSensores() {
+    window.location.href = "../public/cadastro_sensores_trens.html";
+}
+
+function monitoramentoTempoReal() {
+    window.location.href = "../public/monitoramento_tempo_real.html";
+}
+
+function cadastroRelatorios() {
+    window.location.href = "../public/cadastro_relatorios.html";
+}
+
 document.getElementById("login").onsubmit = (e) => {
 
     e.preventDefault();
@@ -15,8 +35,9 @@ document.getElementById("login").onsubmit = (e) => {
 
     if (email === emailCorreto && senha === senhaCorreta) {
         verificacao = true;
+        window.location.href = "public/tela_inicial.html";
         alert("Login realizado com sucesso!");
-        // tem que adicionar -> "" window.location.href = "nome da prx pag" "";
+     
     } else {
         return alert("E-mail ou senha incorretos!");
     }
@@ -51,15 +72,6 @@ if (formularioCadastro) {
         window.location.href = "index.html";
     };
 }
-
-function alerta() {
-    alert("Não é possível excluir sensores com dados registrados");
-}
-
-
-
-
-
 
 
 

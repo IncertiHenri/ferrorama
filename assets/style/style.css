@@ -156,6 +156,8 @@ label {
 
 .menu {
     background-color: var(--fundo);
+    display: inline-block;
+    height: 100%;
 }
 
 .imagem-botao-menu{
@@ -173,15 +175,29 @@ label {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: left;
     font-size: 20px;
     font-weight: 600;
     gap: 10px;
     margin-bottom: 5px;
+    width: 100%;
 }
 
 .botao-menu-atual{
     background-color: var(--verde-musgo);
+    border: 0;
+    border-radius: 50px;
+    padding: 10px;
+    color: var(--branco);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 20px;
+    font-weight: 600;
+    gap: 10px;
+    margin-bottom: 5px;
+    width: 100%;
 }
 
 #botoes-menu{
