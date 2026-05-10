@@ -326,6 +326,7 @@ table {
 #cadastro-sensores {
     background-color: var(--verde-musgo);
     color: var(--branco);
+    border: none;
 }
 
 #botao2 {
@@ -344,6 +345,7 @@ table {
     border-radius: 20px;
      justify-content: center;
       align-items: center;
+      display: flex;
 }
 
 .cadastros {
@@ -356,24 +358,16 @@ table {
     justify-content: center;
       align-items: center;
       
+      
 }
 
-#img_usuario {
-    height: 40%;
-    width: 20%;
-}
-
-#tipo_de_dado {
-    background-color: var(--verde-escuro-musgo);
+#caixa-texto {
     border-radius: 5px;
     border-color: var(--amarelo-bebe);
 }
 
 td{
   text-indent: 15px;
-}
-#titulo-tabela #titulo-coluna{
-    font-weight: bold;
 }
 
 /* ANNIE*/
