@@ -225,6 +225,10 @@ label {
     text-decoration: underline;
 }
 
+.flex{
+    display: flex;
+}
+
 /* SERENNA  */
 
 #body-tela-inicial {
@@ -330,7 +334,8 @@ table {
 #cadastro-sensores {
     background-color: var(--verde-musgo);
     color: var(--branco);
-    border: none;
+    border: 0;
+    margin: 0;
 }
 
 #botao2 {
@@ -342,14 +347,13 @@ table {
 
 .fundo-cadastros {
     background-color: var(--verde-medio-musgo);
-    display: grid;
     place-items: center;
-    width: fit-content;
     padding: 15px;
     border-radius: 20px;
-     justify-content: center;
-      align-items: center;
-      display: flex;
+    justify-content: center;
+    align-items: center;
+    display: inline-flex;
+    margin-top: 0;
 }
 
 .cadastros {
