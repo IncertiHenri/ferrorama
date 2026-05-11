@@ -18,123 +18,126 @@
         </div>
     </header>
 
-    <div class="menu">
+    <main id="main-cadastro-sensores">
+        <div class="menu">
 
-        <img src="../assets/img/trem.PNG" alt="trem" class="trem-menu">
-        <div class="inline-block">
-            <div class="inline-flex">
-                <h1 class="titulo-menu">ASTRAL</h1>
-                <h4 class="titulo2-menu">EXPRESS</h4>
+            <img src="../assets/img/trem.PNG" alt="trem" class="trem-menu">
+            <div class="inline-block">
+                <div class="inline-flex">
+                    <h1 class="titulo-menu">ASTRAL</h1>
+                    <h4 class="titulo2-menu">EXPRESS</h4>
+                </div>
+                <p class="subtitulo-menu">SISTEMA DE MONITORAMENTO FERROVIÁRIO</p>
             </div>
-            <p class="subtitulo-menu">SISTEMA DE MONITORAMENTO FERROVIÁRIO</p>
-        </div>
 
-        <div id="botoes-menu">
-            <button class="botao-menu" id="botao-menu-tela-inicial" onclick="telaInicial()"><img
-                    class="imagem-botao-menu" src="../assets/img/tela-inicial.png" alt="tela-inicial"> Tela
-                inicial</button>
-            <button class="botao-menu-atual" id="botao-menu-cadastro-sensores" onclick="cadastroSensores()"><img
-                    class="imagem-botao-menu" src="../assets/img/cadastro-sensores.png" alt="cadastro-sensores">
-                Cadastro de Sensores e
-                Trens</button>
-            <button class="botao-menu" id="botao-menu-monitoramento" onclick="monitoramentoTempoReal()"><img
-                    class="imagem-botao-menu" src="../assets/img/monitoramento-tempo.png" alt="monitoramento">
-                Monitoramento em tempo
-                Real</button>
-            <button class="botao-menu" id="botao-menu-cadastro-relatorios" onclick="cadastroRelatorios()"><img
-                    class="imagem-botao-menu" src="../assets/img/cadastro-relatorios.png" alt="cadastro-relatorios">
-                Cadastro de
-                Relatórios</button>
-            <button class="botao-menu" id="botao-menu-sair-sistema"><img class="imagem-botao-menu"
-                    src="../assets/img/sair.png" alt="sair">Sair do Sistema</button>
-        </div>
-    </div>
-
-    <div class="fundo-cadastros">
-        <div class="cadastros">
-            <h2 id="titulo-tabela">Cadastro de sensores e trens</h2>
-            <div class="tabela">
-                <table>
-                    <tr>
-                        <td id="titulo-coluna">ID do Sensor</td>
-                        <td id="titulo-coluna">Localização</td>
-                        <td id="titulo-coluna">Tipo de Dado</td>
-                        <td id="titulo-coluna">Ação</td>
-                    </tr>
-                    <tr>
-                        <td>01</td>
-                        <td>Linha A</td>
-                        <td><input id="caixa-texto" type="text"></td>
-                        <td><button id="botao2">Visualizar</button></td>
-                        <td><button id="botao2" onclick="alerta()">Excluir</button></td>
-                    </tr>
-                    <tr>
-                        <td>02</td>
-                        <td>Linha B</td>
-                        <td><input id="caixa-texto" type="text"></td>
-                        <td><button id="botao2">Visualizar</button></td>
-                        <td><button id="botao2" onclick="alerta()">Excluir</button></td>
-                    </tr>
-                    <tr>
-                        <td>03</td>
-                        <td>Linha C</td>
-                        <td><input id="caixa-texto" type="text"></td>
-                        <td><button id="botao2">Visualizar</button></td>
-                        <td><button id="botao2" onclick="alerta()">Excluir</button></td>
-                    </tr>
-                    <tr>
-                        <td>04</td>
-                        <td>Linha D</td>
-                        <td><input id="caixa-texto" type="text"></td>
-                        <td><button id="botao2">Visualizar</button></td>
-                        <td><button id="botao2" onclick="alerta()">Excluir</button></td>
-                    </tr>
-                    <tr>
-                        <td>05</td>
-                        <td>Linha E</td>
-                        <td><input id="caixa-texto" type="text"></td>
-                        <td><button id="botao2">Visualizar</button></td>
-                        <td><button id="botao2" onclick="alerta()">Excluir</button></td>
-                    </tr>
-                    <tr>
-                        <td>06</td>
-                        <td>Linha F</td>
-                        <td><input id="caixa-texto" type="text"></td>
-                        <td><button id="botao2">Visualizar</button></td>
-                        <td><button id="botao2" onclick="alerta()">Excluir</button></td>
-                    </tr>
-                    <tr>
-                        <td>07</td>
-                        <td>Linha G</td>
-                        <td><input id="caixa-texto" type="text"></td>
-                        <td><button id="botao2">Visualizar</button></td>
-                        <td><button id="botao2" onclick="alerta()">Excluir</button></td>
-                    </tr>
-                    <tr>
-                        <td>08</td>
-                        <td>Linha H</td>
-                        <td><input id="caixa-texto" type="text"></td>
-                        <td><button id="botao2">Visualizar</button></td>
-                        <td><button id="botao2" onclick="alerta()">Excluir</button></td>
-                    </tr>
-                    <tr>
-                        <td>09</td>
-                        <td>Linha I</td>
-                        <td><input id="caixa-texto" type="text"></td>
-                        <td><button id="botao2">Visualizar</button></td>
-                        <td><button id="botao2" onclick="alerta()">Excluir</button></td>
-                    </tr>
-                    <tr>
-                        <td>10</td>
-                        <td>Linha J</td>
-                        <td><input id="caixa-texto" type="text"></td>
-                        <td><button id="botao2">Visualizar</button></td>
-                        <td><button id="botao2" onclick="alerta()">Excluir</button></td>
-                    </tr>
-                </table>
+            <div id="botoes-menu">
+                <button class="botao-menu" id="botao-menu-tela-inicial" onclick="telaInicial()"><img
+                        class="imagem-botao-menu" src="../assets/img/tela-inicial.png" alt="tela-inicial"> Tela
+                    inicial</button>
+                <button class="botao-menu-atual" id="botao-menu-cadastro-sensores" onclick="cadastroSensores()"><img
+                        class="imagem-botao-menu" src="../assets/img/cadastro-sensores.png" alt="cadastro-sensores">
+                    Cadastro de Sensores e
+                    Trens</button>
+                <button class="botao-menu" id="botao-menu-monitoramento" onclick="monitoramentoTempoReal()"><img
+                        class="imagem-botao-menu" src="../assets/img/monitoramento-tempo.png" alt="monitoramento">
+                    Monitoramento em tempo
+                    Real</button>
+                <button class="botao-menu" id="botao-menu-cadastro-relatorios" onclick="cadastroRelatorios()"><img
+                        class="imagem-botao-menu" src="../assets/img/cadastro-relatorios.png" alt="cadastro-relatorios">
+                    Cadastro de
+                    Relatórios</button>
+                <button class="botao-menu" id="botao-menu-sair-sistema"><img class="imagem-botao-menu"
+                        src="../assets/img/sair.png" alt="sair">Sair do Sistema</button>
             </div>
         </div>
-    </div>
+
+
+        <div class="fundo-cadastros">
+            <div class="cadastros">
+                <h2 id="titulo-tabela">Cadastro de sensores e trens</h2>
+                <div class="tabela">
+                    <table>
+                        <tr>
+                            <td id="titulo-coluna">ID do Sensor</td>
+                            <td id="titulo-coluna">Localização</td>
+                            <td id="titulo-coluna">Tipo de Dado</td>
+                            <td id="titulo-coluna">Ação</td>
+                        </tr>
+                        <tr>
+                            <td>01</td>
+                            <td>Linha A</td>
+                            <td><input id="caixa-texto" type="text"></td>
+                            <td><button id="botao2">Visualizar</button></td>
+                            <td><button id="botao2" onclick="alerta()">Excluir</button></td>
+                        </tr>
+                        <tr>
+                            <td>02</td>
+                            <td>Linha B</td>
+                            <td><input id="caixa-texto" type="text"></td>
+                            <td><button id="botao2">Visualizar</button></td>
+                            <td><button id="botao2" onclick="alerta()">Excluir</button></td>
+                        </tr>
+                        <tr>
+                            <td>03</td>
+                            <td>Linha C</td>
+                            <td><input id="caixa-texto" type="text"></td>
+                            <td><button id="botao2">Visualizar</button></td>
+                            <td><button id="botao2" onclick="alerta()">Excluir</button></td>
+                        </tr>
+                        <tr>
+                            <td>04</td>
+                            <td>Linha D</td>
+                            <td><input id="caixa-texto" type="text"></td>
+                            <td><button id="botao2">Visualizar</button></td>
+                            <td><button id="botao2" onclick="alerta()">Excluir</button></td>
+                        </tr>
+                        <tr>
+                            <td>05</td>
+                            <td>Linha E</td>
+                            <td><input id="caixa-texto" type="text"></td>
+                            <td><button id="botao2">Visualizar</button></td>
+                            <td><button id="botao2" onclick="alerta()">Excluir</button></td>
+                        </tr>
+                        <tr>
+                            <td>06</td>
+                            <td>Linha F</td>
+                            <td><input id="caixa-texto" type="text"></td>
+                            <td><button id="botao2">Visualizar</button></td>
+                            <td><button id="botao2" onclick="alerta()">Excluir</button></td>
+                        </tr>
+                        <tr>
+                            <td>07</td>
+                            <td>Linha G</td>
+                            <td><input id="caixa-texto" type="text"></td>
+                            <td><button id="botao2">Visualizar</button></td>
+                            <td><button id="botao2" onclick="alerta()">Excluir</button></td>
+                        </tr>
+                        <tr>
+                            <td>08</td>
+                            <td>Linha H</td>
+                            <td><input id="caixa-texto" type="text"></td>
+                            <td><button id="botao2">Visualizar</button></td>
+                            <td><button id="botao2" onclick="alerta()">Excluir</button></td>
+                        </tr>
+                        <tr>
+                            <td>09</td>
+                            <td>Linha I</td>
+                            <td><input id="caixa-texto" type="text"></td>
+                            <td><button id="botao2">Visualizar</button></td>
+                            <td><button id="botao2" onclick="alerta()">Excluir</button></td>
+                        </tr>
+                        <tr>
+                            <td>10</td>
+                            <td>Linha J</td>
+                            <td><input id="caixa-texto" type="text"></td>
+                            <td><button id="botao2">Visualizar</button></td>
+                            <td><button id="botao2" onclick="alerta()">Excluir</button></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+    </main>
 
     <script src="../scripts/script.js"></script>
 </body>
