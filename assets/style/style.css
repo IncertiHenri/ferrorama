@@ -322,6 +322,10 @@ table {
     border-spacing: 40px 20px;
 }
 
+.conteudo-principal{
+    display: flex;
+}
+
 /* THAIS */
 #cadastro-sensores {
     background-color: var(--verde-musgo);
