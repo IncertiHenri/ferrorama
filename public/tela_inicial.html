@@ -18,63 +18,49 @@
         </div>
     </header>
 
-    <div class="menu">
+    <main id="main-tela-inicial">
+        <div class="conteudo-principal">
 
 
-        <img src="../assets/img/trem.PNG" alt="trem" class="trem-menu">
-        <div class="inline-block">
-            <div class="inline-flex">
-                <h1 class="titulo-menu">ASTRAL</h1>
-                <h4 class="titulo2-menu">EXPRESS</h4>
+            <div class="area-boas-vindas">
+                <div>
+                <h2 class="titulo-boas-vindas">Bem vindo(a), Admin!</h2>
+                <p class="descricao-boas-vindas">Acompanhe em tempo real o desempenho da malha ferroviária, gerencie
+                    sensores e trens, visualize relatórios e monitore os usuários do sistema de forma prática, rápida e
+                    eficiente.</p>
+                    </div>
+                    <img src="../assets/img/trem-boas-vindas.png" alt="Trem" class="imagem-trem-boas-vindas">
             </div>
-            <p class="subtitulo-menu">SISTEMA DE MONITORAMENTO FERROVIÁRIO</p>
+
+            <div class="container-botoes">
+
+                <button class="botao-tela-inicial" onclick="botaoTelaInicial()">
+                    <img src="../assets/img/cadastro-sensores.png" alt="Cadastro de Sensores e Trens"
+                        class="imagem-cadastro-sensores">
+                    <span>Cadastro de Sensores e Trens</span>
+                </button>
+
+                <button class="botao-tela-inicial" onclick="botaoTelaInicial()">
+                    <img src="../assets/img/monitoramento-tempo.png" alt="Monitoramento em Tempo Real"
+                        class="imagem-cadastro-sensores">
+                    <span>Monitoramento em Tempo Real</span>
+                </button>
+
+                <button class="botao-tela-inicial" onclick="botaoTelaInicial()">
+                    <img src="../assets/img/cadastro-relatorios.png" alt="Cadastro de Relatórios"
+                        class="imagem-cadastro-sensores">
+                    <span>Cadastro de Relatórios</span>
+                </button>
+
+                <button class="botao-tela-inicial" onclick="botaoTelaInicial()">
+                    <img src="../assets/img/usuarios.png" alt="Úsuarios Cadastrados" class="imagem-cadastro-sensores">
+                    <span>Úsuarios Cadastrados</span>
+                </button>
+
+            </div>
+
         </div>
-
-        <div id="botoes-menu">
-            <button class="botao-menu-atual" id="botao-menu-tela-inicial" onclick="telaInicial()"><img
-                    class="imagem-botao-menu" src="../assets/img/tela-inicial.png" alt="tela-inicial"> Tela
-                inicial</button>
-            <button class="botao-menu" id="botao-menu-cadastro-sensores" onclick="cadastroSensores()"><img
-                    class="imagem-botao-menu" src="../assets/img/cadastro-sensores.png" alt="cadastro-sensores">
-                Cadastro de Sensores e
-                Trens</button>
-            <button class="botao-menu" id="botao-menu-monitoramento" onclick="monitoramentoTempoReal()"><img
-                    class="imagem-botao-menu" src="../assets/img/monitoramento-tempo.png" alt="monitoramento">
-                Monitoramento em tempo
-                Real</button>
-            <button class="botao-menu" id="botao-menu-cadastro-relatorios" onclick="cadastroRelatorios()"><img
-                    class="imagem-botao-menu" src="../assets/img/cadastro-relatorios.png" alt="cadastro-relatorios">
-                Cadastro de
-                Relatórios</button>
-            <button class="botao-menu" id="botao-menu-usuarios-cadastrados" onclick="usuariosCadastrados()"><img
-                    class="imagem-botao-menu" src="../assets/img/usuarios.png" alt="usuarios-cadastrados">
-                Usuários cadastrados</button>
-            <button class="botao-menu" id="botao-menu-sair-sistema"><img class="imagem-botao-menu"
-                    src="../assets/img/sair.png" alt="sair">Sair do Sistema</button>
-        </div>
-    </div>
-
-    <div class="container-botoes">
-
-        <button class="botao-tela-inicial" onclick="botaoTelaInicial()">
-            <img src="../assets/img/cadastro-sensores.png" alt="Cadastro de Sensores e Trens"
-                class="imagem-cadastro-sensores">
-            <span>Cadastro de Sensores e Trens</span>
-        </button>
-
-        <button class="botao-tela-inicial" onclick="botaoTelaInicial()">
-            <img src="../assets/img/monitoramento-tempo.png" alt="Monitoramento em Tempo Real"
-                class="imagem-cadastro-sensores">
-            <span>Monitoramento em Tempo Real</span>
-        </button>
-
-        <button class="botao-tela-inicial" onclick="botaoTelaInicial()">
-            <img src="../assets/img/cadastro-relatorios.png" alt="Cadastro de Relatórios"
-                class="imagem-cadastro-sensores">
-            <span>Cadastro de Relatórios</span>
-        </button>
-
-    </div>
+    </main>
 
     <script src="../scripts/script.js"></script>
 </body>
