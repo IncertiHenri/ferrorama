@@ -18,6 +18,10 @@ function cadastroRelatorios() {
     window.location.href = "../public/cadastro_relatorios.html";
 }
 
+function usuariosCadastrados() {
+    window.location.href = "../public/usuarios_cadastrados.html";
+}
+
 document.getElementById("login").onsubmit = (e) => {
 
     e.preventDefault();
