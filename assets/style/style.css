@@ -236,12 +236,54 @@ label {
 }
 
 #main-cadastro-sensores{
-   
+
 }
+
+#body-monitoramento{
+    background-color: var(--verde-musgo);
+    margin: 0;
+}
+
+#main-monitoramento{
+    display: flex;
+}
+
+#body-cadastro-relatorios{
+    background-color: var(--verde-musgo);
+    margin: 0;
+}
+
+#relatorios-analiticos{
+    background-color: var(--verde-medio-musgo);
+}
+
+.titulo-relatorios{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: var(--branco);
+}
+
+.conteiners-pequenos{
+    background-color: var(--verde-escuro-musgo);
+}
+
+.bolinhas-imagem{
+    background-color: var(--verde-musgo);
+    border-radius: 100%;
+    width: fit-content;
+    margin: 10px;
+}
+
+.imagens-grandes-relatorio{
+    height: 70px;
+    width: auto;
+    margin: 15px;
+    margin-top: 10px;
+}
+
 /* SERENNA  */
 
 #body-tela-inicial {
-    background-color: var(--verde-musgo)
+    background-color: var(--verde-musgo);
 }
 
 .botao-tela-inicial {
@@ -316,6 +358,8 @@ label {
     width: fit-content;
     padding: 15px;
     border-radius: 20px;
+    margin-top: 10%;
+    margin-left: 45%;
 }
 
 .tabela-monitoramento {
