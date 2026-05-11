@@ -7,6 +7,15 @@
     --preto: #000000;
     --verde-medio-musgo: #504f25;
     --verde-preto-musgo: #2f2f18;
+    --azul: #1800ad;
+    --vermelho: #c92a2a;
+    --verde: #007f00;
+    --amarelo-dourado: #f8bc6b;
+    --marrom-escuro: #29201d;
+    --laranja: #ff751f;
+    --verde-claro: #7ed957;
+    --rosa: #ff66c4;
+    --roxo: #5e17eb;
 }
 
 
@@ -235,10 +244,6 @@ label {
     margin: 0;
 }
 
-#main-cadastro-sensores{
-
-}
-
 #body-monitoramento{
     background-color: var(--verde-musgo);
     margin: 0;
@@ -280,10 +285,15 @@ label {
     margin-top: 10px;
 }
 
+
+#main-tela-inicial{
+    display: flex;
+}
 /* SERENNA  */
 
 #body-tela-inicial {
     background-color: var(--verde-musgo);
+    margin: 0;
 }
 
 .botao-tela-inicial {
@@ -377,6 +387,7 @@ table {
 
 .conteudo-principal{
     display: flex;
+    margin-left: 28%;
 }
 
 .area-boas-vindas{
