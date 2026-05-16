@@ -63,6 +63,10 @@ Equipes auto-organizadas e colaborativas – aquelas em que os desenvolvedores d
 6. Utilização mais eficiente dos recursos;
 O foco do Scrum na entrega orientada a valor ajuda a garantir que os recursos sejam usados ​​de forma eficiente.
 
+# Vídeo do nosso SCRUM
+
+https://youtu.be/spQGUdTxMtg
+
 
 # Fontes:
 - https://www.atlassian.com/br/agile/scrum
