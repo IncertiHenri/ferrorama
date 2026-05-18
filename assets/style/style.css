@@ -419,13 +419,13 @@ table {
     height: auto;
 }
 
-#vizualizacao-trens{
+#visualizacao-trens{
     margin: 0;
     background-color: var(--verde-musgo);
 }
 
 /* THAIS */
-#vizualizacao-sensores {
+#visualizacao-sensores {
     background-color: var(--verde-musgo);
     color: var(--branco);
     border: 0;
