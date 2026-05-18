@@ -419,9 +419,13 @@ table {
     height: auto;
 }
 
+#vizualizacao-trens{
+    margin: 0;
+    background-color: var(--verde-musgo);
+}
 
 /* THAIS */
-#cadastro-sensores {
+#vizualizacao-sensores {
     background-color: var(--verde-musgo);
     color: var(--branco);
     border: 0;

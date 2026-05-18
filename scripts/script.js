@@ -6,8 +6,8 @@ function telaInicial() {
      window.location.href = "../public/tela_inicial.html";
 }
 
-function cadastroSensores() {
-    window.location.href = "../public/cadastro_sensores_trens.html";
+function vizualizacaoSensores() {
+    window.location.href = "../public/vizualizacao_sensores.html";
 }
 
 function monitoramentoTempoReal() {
@@ -20,6 +20,10 @@ function cadastroRelatorios() {
 
 function usuariosCadastrados() {
     window.location.href = "../public/usuarios_cadastrados.html";
+}
+
+function vizualizacaoTrens() {
+    window.location.href = "../public/vizualizacao_trens.html";
 }
 
 document.getElementById("login").onsubmit = (e) => {
