@@ -504,6 +504,53 @@ table {
     font-weight: bold;
 }
 
+#cadastro-sensores{
+    margin: 0;
+    background-color: var(--verde-musgo);
+}
+
+.titulo-cadastro-sensores{
+    color: var(--branco);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.informacoes-cadastro-sensores{
+    color: var(--branco);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.campo-verde-medio-sensores{
+    background-color: var(--verde-medio-musgo);
+    padding: 10px;
+}
+
+.novos-sensores{
+    background-color: var(--verde-escuro-musgo);
+}
+
+.campo-borda-verde{
+    background-color: var(--verde-escuro-musgo);
+    border: 1px solid var(--verde-musgo);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.campo-dados{
+    background-color: var(--verde-musgo);
+    color: var(--branco);
+    border: 1px solid var(--verde-preto-musgo);
+}
+
 /* THAIS */
 #visualizacao-sensores {
     background-color: var(--verde-musgo);
@@ -517,6 +564,7 @@ table {
     border-radius: 5px;
     color: var(--branco);
     border: none;
+    padding: 7px 17px;
 }
 
 .fundo-cadastros {
@@ -539,18 +587,45 @@ table {
     padding: 10px;
     border-radius: 20px;
     justify-content: center;
-      align-items: center;
-      
-      
-}
-
-#caixa-texto {
-    border-radius: 5px;
-    border-color: var(--amarelo-bebe);
+    align-items: center;
 }
 
 td{
   text-indent: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#titulo-tabela{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#botao-sensor-novo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--verde-musgo);
+    border-radius: 15px;
+    color: var(--branco);
+    border: none;
+    padding: 10px 20px;
+}
+
+.borda-verde{
+    border: 2px solid var(--verde-musgo);
+    background-color: var(--verde-escuro-musgo);
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.borda-verde-flex{
+    border: 2px solid var(--verde-musgo);
+    background-color: var(--verde-escuro-musgo);
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* ANNIE*/

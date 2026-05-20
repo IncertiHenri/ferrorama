@@ -4,11 +4,61 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/style/style.css">
+    <link rel="stylesheet" href="../assets/style/style.css">
     <title>Cadastro de sensores</title>
 </head>
 
-<body>
-    
+<body id="cadastro-sensores">
+    <header>
+        <div id="navbar-tela-inicial">
+            <p>Olá, Admin</p>
+            <img src="../assets/img/usuario.png" alt="Admin" class="imagem-usuario">
+            <button id="botao-sair" onclick="sair()">Sair do Sistema</button>
+        </div>
+    </header>
+
+    <main id="main-cadastro-sensores">
+
+        <div class="campo-verde-medio-sensores">
+
+            <div class="novos-sensores">
+
+                <h1 class="titulo-cadastro-sensores">Cadastro de Novos Sensores</h1>
+
+                <div class="campo-borda-verde">
+                  
+                        <div class="flex-column">
+                        <h2 class="informacoes-cadastro-sensores">ID do Sensor</h2>
+                        <label for="id-sensor"></label>
+                        <input type="number" id="id-sensor" class="campo-dados">
+                        </div>
+                        
+                        <div class="flex-column">
+                        <h2 class="informacoes-cadastro-sensores">Linha</h2>
+                        <label for="linha-cadastro-sensor"></label>
+                        <input type="text" id="linha-cadastro-sensor" class="campo-dados">
+                        </div>
+
+                        <div class="flex-column">
+                        <h2 class="informacoes-cadastro-sensores">Tipo de Dado</h2>
+                        <label for="tipo-dado-cadastro-sensor"></label>
+                        <select name="tipo-dado" id="tipo-dado-cadastro-sensor" class="campo-dados">
+                            <option value="">Selecione o tipo dado</option>
+                            <option value="velocidade">Velocidade</option>
+                            <option value="falha">Falha</option>
+                            <option value="temperatura">Temperatura</option>
+                        </select>
+                        </div>
+
+                    </div>
+                    <button onclick="cadastrarSensor()">Cadastrar sensor</button>
+                </div>
+            </div>
+        </div>
+
+    </main>
+
+    <script src="../scripts/script.js"></script>
 </body>
 
 
