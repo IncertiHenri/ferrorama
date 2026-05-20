@@ -289,6 +289,58 @@ label {
 #main-tela-inicial{
     display: flex;
 }
+
+
+#cadastro-sensores{
+    margin: 0;
+    background-color: var(--verde-musgo);
+}
+
+.titulo-cadastro-sensores{
+    color: var(--branco);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.informacoes-cadastro-sensores{
+    color: var(--branco);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.campo-verde-medio-sensores{
+    background-color: var(--verde-medio-musgo);
+    padding: 10px;
+}
+
+.novos-sensores{
+    background-color: var(--verde-escuro-musgo);
+}
+
+.campo-borda-verde{
+    background-color: var(--verde-escuro-musgo);
+    border: 1px solid var(--verde-musgo);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.campo-dados{
+    background-color: var(--verde-musgo);
+    color: var(--branco);
+    border: 1px solid var(--verde-preto-musgo);
+}
+
+
+
+
 /* SERENNA  */
 
 #body-tela-inicial {
@@ -502,53 +554,6 @@ table {
 #linha-10{
     color: var(--roxo);
     font-weight: bold;
-}
-
-#cadastro-sensores{
-    margin: 0;
-    background-color: var(--verde-musgo);
-}
-
-.titulo-cadastro-sensores{
-    color: var(--branco);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.informacoes-cadastro-sensores{
-    color: var(--branco);
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-.campo-verde-medio-sensores{
-    background-color: var(--verde-medio-musgo);
-    padding: 10px;
-}
-
-.novos-sensores{
-    background-color: var(--verde-escuro-musgo);
-}
-
-.campo-borda-verde{
-    background-color: var(--verde-escuro-musgo);
-    border: 1px solid var(--verde-musgo);
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-.flex-column{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-between;
-}
-
-.campo-dados{
-    background-color: var(--verde-musgo);
-    color: var(--branco);
-    border: 1px solid var(--verde-preto-musgo);
 }
 
 /* THAIS */
