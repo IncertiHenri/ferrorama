@@ -19,18 +19,18 @@
     </header>
 
     <main id="main-monitoramento">
-    <div class="menu">
+        <div class="menu">
 
 
-        <img src="../assets/img/trem.PNG" alt="trem" class="trem-menu">
-        <div class="inline-block">
-            <div class="inline-flex">
-                <h1 class="titulo-menu">ASTRAL</h1>
-                <h4 class="titulo2-menu">EXPRESS</h4>
+            <img src="../assets/img/trem.PNG" alt="trem" class="trem-menu">
+            <div class="inline-block">
+                <div class="inline-flex">
+                    <h1 class="titulo-menu">ASTRAL</h1>
+                    <h4 class="titulo2-menu">EXPRESS</h4>
+                </div>
+                <p class="subtitulo-menu">SISTEMA DE MONITORAMENTO FERROVIÁRIO</p>
             </div>
-            <p class="subtitulo-menu">SISTEMA DE MONITORAMENTO FERROVIÁRIO</p>
-        </div>
-<div id="botoes-menu">
+            <div id="botoes-menu">
                 <button class="botao-menu" id="botao-menu-tela-inicial" onclick="telaInicial()"><img
                         class="imagem-botao-menu" src="../assets/img/tela-inicial.png" alt="tela-inicial"> Tela
                     inicial</button>
@@ -53,72 +53,83 @@
                         class="imagem-botao-menu" src="../assets/img/usuarios.png" alt="usuarios-cadastrados">
                     Usuários cadastrados</button>
             </div>
-    </div>
-
-    <div class="fundo-tabela-monitoramento">
-        <div class="tabela-monitoramento">
-
-            <table>
-                <tr>
-                    <th>ID</th>
-                    <th>Velocidade</th>
-                    <th>Status</th>
-                </tr>
-                <tr>
-                    <td>01</td>
-                    <td>100 km/h</td>
-                    <td>Normal</td>
-                </tr>
-                <tr>
-                    <td>02</td>
-                    <td>140 Km/h</td>
-                    <td>Alerta</td>
-                </tr>
-                <tr>
-                    <td>03</td>
-                    <td>80 km/h</td>
-                    <td>Normal</td>
-                </tr>
-                <tr>
-                    <td>04</td>
-                    <td>80 km/h</td>
-                    <td>Normal</td>
-                </tr>
-                <tr>
-                    <td>05</td>
-                    <td>100 km/h</td>
-                    <td>Normal</td>
-                </tr>
-                <tr>
-                    <td>06</td>
-                    <td>100 km/h</td>
-                    <td>Normal</td>
-                </tr>
-                <tr>
-                    <td>07</td>
-                    <td>80 km/h</td>
-                    <td>Falha</td>
-                </tr>
-                <tr>
-                    <td>08</td>
-                    <td>120 km/h</td>
-                    <td>Normal</td>
-                </tr>
-                <tr>
-                    <td>09</td>
-                    <td>35 km/h</td>
-                    <td>Normal</td>
-                </tr>
-                <tr>
-                    <td>10</td>
-                    <td>120 km/h</td>
-                    <td>Alerta</td>
-                </tr>
-            </table>
         </div>
-    </div>
-    </div>
-</main>
+
+        <div id="tabelas-monitoramento">
+            <div id="fundo-tabela-monitoramento">
+                <div class="tabela-monitoramento">
+
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Velocidade</th>
+                            <th>Status</th>
+                        </tr>
+                        <tr>
+                            <td id="linha-1">01</td>
+                            <td>100 km/h</td>
+                            <td>Normal</td>
+                        </tr>
+                        <tr>
+                            <td id="linha-2">02</td>
+                            <td>140 Km/h</td>
+                            <td>Alerta</td>
+                        </tr>
+                        <tr>
+                            <td id="linha-3">03</td>
+                            <td>80 km/h</td>
+                            <td>Normal</td>
+                        </tr>
+                        <tr>
+                            <td id="linha-4">04</td>
+                            <td>80 km/h</td>
+                            <td>Normal</td>
+                        </tr>
+                        <tr>
+                            <td id="linha-5">05</td>
+                            <td>100 km/h</td>
+                            <td>Normal</td>
+                        </tr>
+                        <tr>
+                            <td id="linha-6">06</td>
+                            <td>100 km/h</td>
+                            <td>Normal</td>
+                        </tr>
+                        <tr>
+                            <td id="linha-7">07</td>
+                            <td>80 km/h</td>
+                            <td>Falha</td>
+                        </tr>
+                        <tr>
+                            <td id="linha-8">08</td>
+                            <td>120 km/h</td>
+                            <td>Normal</td>
+                        </tr>
+                        <tr>
+                            <td id="linha-9">09</td>
+                            <td>35 km/h</td>
+                            <td>Normal</td>
+                        </tr>
+                        <tr>
+                            <td id="linha-10">10</td>
+                            <td>120 km/h</td>
+                            <td>Alerta</td>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="fundo-tabela-mapa">
+            <div class="mapa-monitoramento">
+                <img id="mapa-trilho" src="../assets/img/mapa-trilho.png" alt="Mapa de monitoramento">
+            </div>
+        </div>
+        </div>
+
+    </main>
+
 
     <script src="../scripts/script.js"></script>
 </body>

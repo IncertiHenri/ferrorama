@@ -362,9 +362,9 @@ label {
     display: grid;
     place-items: center;
     width: fit-content;
-    padding: 15px;
+    padding: 30px;
     border-radius: 20px;
-    margin-top: 10%;
+    margin-top: 40%;
     margin-left: 45%;
 }
 
@@ -375,6 +375,36 @@ label {
     width: fit-content;
     padding: 10px;
     border-radius: 20px;
+}
+
+.fundo-tabela-mapa {
+    background-color: var(--verde-medio-musgo);
+    display: grid;
+    place-items: center;
+    width: fit-content;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 40%;
+    margin-left: 45%;
+}
+
+.mapa-monitoramento {
+    background-color: var(--verde-escuro-musgo);
+    display: grid;
+    place-items: center;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#tabelas-monitoramento {
+    display: flex;
+    gap: 10px;
+}
+
+#mapa-trilho {
+    width: 500px;
+    height: auto;
 }
 
 table {
@@ -422,6 +452,56 @@ table {
 #visualizacao-trens{
     margin: 0;
     background-color: var(--verde-musgo);
+}
+
+#linha-1{
+    color: var(--azul);
+    font-weight: bold;
+}
+
+#linha-2{
+    color: var(--vermelho);
+    font-weight: bold;
+}
+
+#linha-3{
+    color: var(--verde);
+    font-weight: bold;
+}
+
+#linha-4{
+    color: var(--amarelo-dourado);
+    font-weight: bold;
+}
+
+#linha-5{
+    color: var(--marrom-escuro);
+    font-weight: bold;
+}
+
+#linha-6{
+    color: var(--laranja);
+    font-weight: bold;
+}
+
+#linha-7{
+    color: var(--verde-claro);
+    font-weight: bold;
+}
+
+#linha-8{
+    color: var(--rosa);
+    font-weight: bold;
+}
+
+#linha-9{
+    color: var(--branco);
+    font-weight: bold;
+}
+
+#linha-10{
+    color: var(--roxo);
+    font-weight: bold;
 }
 
 /* THAIS */
