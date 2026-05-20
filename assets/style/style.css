@@ -309,20 +309,28 @@ label {
 .campo-verde-medio-sensores{
     background-color: var(--verde-medio-musgo);
     padding: 10px;
+    border-radius: 20px;
+    width: 40%;
+    margin-left: 40%;
 }
 
 .novos-sensores{
     background-color: var(--verde-escuro-musgo);
+    padding: 10px;
+    border-radius: 20px;
 }
 
 .campo-borda-verde{
     background-color: var(--verde-escuro-musgo);
-    border: 1px solid var(--verde-musgo);
+    border: 2px solid var(--verde-musgo);
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding-left: 15px;
     padding-right: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
 }
 
 .flex-column{
@@ -338,6 +346,25 @@ label {
     border: 1px solid var(--verde-preto-musgo);
 }
 
+#botao-cadastrar-sensor{
+    background-color: var(--verde-musgo);
+    color: var(--branco);
+    border: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: large;
+    padding: 10px;
+    border-radius: 30px;
+}
+
+.borda-verde-flex-titulo{
+    border: 2px solid var(--verde-musgo);
+    background-color: var(--verde-escuro-musgo);
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 
 
