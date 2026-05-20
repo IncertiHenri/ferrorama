@@ -362,9 +362,9 @@ label {
     display: grid;
     place-items: center;
     width: fit-content;
-    padding: 15px;
+    padding: 30px;
     border-radius: 20px;
-    margin-top: 10%;
+    margin-top: 40%;
     margin-left: 45%;
 }
 
@@ -375,6 +375,36 @@ label {
     width: fit-content;
     padding: 10px;
     border-radius: 20px;
+}
+
+.fundo-tabela-mapa {
+    background-color: var(--verde-medio-musgo);
+    display: grid;
+    place-items: center;
+    width: fit-content;
+    padding: 25px;
+    border-radius: 20px;
+    margin-top: 40%;
+    margin-left: 45%;
+}
+
+.mapa-monitoramento {
+    background-color: var(--verde-escuro-musgo);
+    display: grid;
+    place-items: center;
+    width: fit-content;
+    padding: 30px;
+    border-radius: 20px;
+}
+
+#tabelas-monitoramento {
+    display: flex;
+    gap: 10px;
+}
+
+#mapa-trilho {
+    width: 500px;
+    height: auto;
 }
 
 table {
@@ -424,6 +454,103 @@ table {
     background-color: var(--verde-musgo);
 }
 
+#linha-1{
+    color: var(--azul);
+    font-weight: bold;
+}
+
+#linha-2{
+    color: var(--vermelho);
+    font-weight: bold;
+}
+
+#linha-3{
+    color: var(--verde);
+    font-weight: bold;
+}
+
+#linha-4{
+    color: var(--amarelo-dourado);
+    font-weight: bold;
+}
+
+#linha-5{
+    color: var(--marrom-escuro);
+    font-weight: bold;
+}
+
+#linha-6{
+    color: var(--laranja);
+    font-weight: bold;
+}
+
+#linha-7{
+    color: var(--verde-claro);
+    font-weight: bold;
+}
+
+#linha-8{
+    color: var(--rosa);
+    font-weight: bold;
+}
+
+#linha-9{
+    color: var(--branco);
+    font-weight: bold;
+}
+
+#linha-10{
+    color: var(--roxo);
+    font-weight: bold;
+}
+
+#cadastro-sensores{
+    margin: 0;
+    background-color: var(--verde-musgo);
+}
+
+.titulo-cadastro-sensores{
+    color: var(--branco);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.informacoes-cadastro-sensores{
+    color: var(--branco);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.campo-verde-medio-sensores{
+    background-color: var(--verde-medio-musgo);
+    padding: 10px;
+}
+
+.novos-sensores{
+    background-color: var(--verde-escuro-musgo);
+}
+
+.campo-borda-verde{
+    background-color: var(--verde-escuro-musgo);
+    border: 1px solid var(--verde-musgo);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.flex-column{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.campo-dados{
+    background-color: var(--verde-musgo);
+    color: var(--branco);
+    border: 1px solid var(--verde-preto-musgo);
+}
+
 /* THAIS */
 #visualizacao-sensores {
     background-color: var(--verde-musgo);
@@ -437,6 +564,7 @@ table {
     border-radius: 5px;
     color: var(--branco);
     border: none;
+    padding: 7px 17px;
 }
 
 .fundo-cadastros {
@@ -459,18 +587,45 @@ table {
     padding: 10px;
     border-radius: 20px;
     justify-content: center;
-      align-items: center;
-      
-      
-}
-
-#caixa-texto {
-    border-radius: 5px;
-    border-color: var(--amarelo-bebe);
+    align-items: center;
 }
 
 td{
   text-indent: 15px;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#titulo-tabela{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#botao-sensor-novo{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--verde-musgo);
+    border-radius: 15px;
+    color: var(--branco);
+    border: none;
+    padding: 10px 20px;
+}
+
+.borda-verde{
+    border: 2px solid var(--verde-musgo);
+    background-color: var(--verde-escuro-musgo);
+    border-radius: 5px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.borda-verde-flex{
+    border: 2px solid var(--verde-musgo);
+    background-color: var(--verde-escuro-musgo);
+    border-radius: 5px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 /* ANNIE*/
