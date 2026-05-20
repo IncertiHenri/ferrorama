@@ -416,8 +416,6 @@ label {
     width: fit-content;
     padding: 30px;
     border-radius: 20px;
-    margin-top: 40%;
-    margin-left: 45%;
 }
 
 .tabela-monitoramento {
@@ -436,8 +434,6 @@ label {
     width: fit-content;
     padding: 25px;
     border-radius: 20px;
-    margin-top: 40%;
-    margin-left: 45%;
 }
 
 .mapa-monitoramento {
@@ -451,12 +447,19 @@ label {
 
 #tabelas-monitoramento {
     display: flex;
-    gap: 10px;
+    gap: 80px;
+    margin-top: 150px;
+    margin-left: 550px;
 }
 
 #mapa-trilho {
-    width: 500px;
+    width: 400px;
     height: auto;
+    border-radius: 20px;
+}
+
+#main-monitoramento {
+    display: flex;
 }
 
 table {
