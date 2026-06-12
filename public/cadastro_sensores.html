@@ -4,22 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/style/style.css">
-    <title>Tela Inicial</title>
+    <link rel="stylesheet" href="../assets/style/style.css">
+    <title>Cadastro de sensores</title>
 </head>
 
-<body id="body-tela-inicial">
-
+<body id="cadastro-sensores">
     <header>
         <div id="navbar-tela-inicial">
             <p>Olá, Admin</p>
             <img src="../assets/img/usuario.png" alt="Admin" class="imagem-usuario">
             <button id="botao-sair" onclick="sair()">Sair do Sistema</button>
-
+        </div>
+        <div class="botao-voltar-">
+            <button onclick="voltar()">Voltar</button>
         </div>
     </header>
 
-    <main id="main-tela-inicial">
-        <div class="menu">
+    <div class="menu">
             <img src="../assets/img/trem.PNG" alt="trem" class="trem-menu">
             <div class="inline-block">
                 <div class="inline-flex">
@@ -30,10 +31,10 @@
             </div>
 
             <div id="botoes-menu">
-                <button class="botao-menu-atual" id="botao-menu-tela-inicial" onclick="telaInicial()"><img
+                <button class="botao-menu" id="botao-menu-tela-inicial" onclick="telaInicial()"><img
                         class="imagem-botao-menu" src="../assets/img/tela-inicial.png" alt="tela-inicial"> Tela
                     inicial</button>
-                <button class="botao-menu" id="botao-menu-cadastro-sensores" onclick="visualizacaoSensores()"><img
+                <button class="botao-menu-atual" id="botao-menu-cadastro-sensores" onclick="visualizacaoSensores()"><img
                         class="imagem-botao-menu" src="../assets/img/cadastro-sensores.png" alt="cadastro-sensores">
                     Visualização de Sensores</button>
                 <button class="botao-menu" id="botao-menu-cadastro-trens" onclick="visualizacaoTrens()"> <img
@@ -54,50 +55,51 @@
             </div>
         </div>
 
-        <div class="conteudo-principal">
+    <main id="main-cadastro-sensores">
 
 
-            <div class="area-boas-vindas">
-                <div>
-                <h2 class="titulo-boas-vindas">Bem vindo(a), Admin!</h2>
-                <p class="descricao-boas-vindas">Acompanhe em tempo real o desempenho da malha ferroviária, gerencie
-                    sensores e trens, visualize relatórios e monitore os usuários do sistema de forma prática, rápida e
-                    eficiente.</p>
+        <div class="campo-verde-medio-sensores">
+
+            <div class="novos-sensores">
+                <div class="borda-verde-flex-titulo">
+                <h1 class="titulo-cadastro-sensores">Cadastro de Novos Sensores</h1>
+                </div>
+                <div class="campo-borda-verde">
+
+                    <div class="flex-column">
+                        <h2 class="informacoes-cadastro-sensores">ID do Sensor</h2>
+                        <label for="id-sensor"></label>
+                        <input type="number" id="id-sensor" class="campo-dados">
                     </div>
-                    <img src="../assets/img/trem-boas-vindas.png" alt="Trem" class="imagem-trem-boas-vindas">
+
+                    <div class="flex-column">
+                        <h2 class="informacoes-cadastro-sensores">Linha</h2>
+                        <label for="linha-cadastro-sensor"></label>
+                        <input type="text" id="linha-cadastro-sensor" class="campo-dados">
+                    </div>
+
+                    <div class="flex-column">
+                        <h2 class="informacoes-cadastro-sensores">Tipo de Dado</h2>
+                        <label for="tipo-dado-cadastro-sensor"></label>
+                        <select name="tipo-dado" id="tipo-dado-cadastro-sensor" class="campo-dados">
+                            <option value="">Selecione o tipo dado</option>
+                            <option value="velocidade">Velocidade</option>
+                            <option value="falha">Falha</option>
+                            <option value="temperatura">Temperatura</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="borda-verde-flex">
+                    <button onclick="cadastrarSensor()" id="botao-cadastrar-sensor">Cadastrar sensor</button>
+                </div>
             </div>
-
-            <div class="container-botoes">
-
-                <button class="botao-tela-inicial" onclick="botaoTelaInicial()">
-                    <img src="../assets/img/cadastro-sensores.png" alt="Cadastro de Sensores e Trens"
-                        class="imagem-cadastro-sensores">
-                    <span>Cadastro de Sensores e Trens</span>
-                </button>
-
-                <button class="botao-tela-inicial" onclick="botaoTelaInicial()">
-                    <img src="../assets/img/monitoramento-tempo.png" alt="Monitoramento em Tempo Real"
-                        class="imagem-cadastro-sensores">
-                    <span>Monitoramento em Tempo Real</span>
-                </button>
-
-                <button class="botao-tela-inicial" onclick="botaoTelaInicial()">
-                    <img src="../assets/img/cadastro-relatorios.png" alt="Cadastro de Relatórios"
-                        class="imagem-cadastro-sensores">
-                    <span>Cadastro de Relatórios</span>
-                </button>
-
-                <button class="botao-tela-inicial" onclick="botaoTelaInicial()">
-                    <img src="../assets/img/usuarios.png" alt="Úsuarios Cadastrados" class="imagem-cadastro-sensores">
-                    <span>Úsuarios Cadastrados</span>
-                </button>
-
-            </div>
-
         </div>
+        </div>
+
     </main>
 
     <script src="../scripts/script.js"></script>
 </body>
+
 
 </html>

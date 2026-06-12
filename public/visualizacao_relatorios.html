@@ -4,10 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/style/style.css">
-    <title>Vizualização de relatórios</title>
+    <title>Visualização de relatórios</title>
 </head>
 
 <body id="pagina-relatorios">
+
+     <header>
+        <div id="navbar-tela-inicial">
+            <p>Olá, Admin</p>
+            <img src="../assets/img/usuario.png" alt="Admin" class="imagem-usuario">
+            <button id="botao-sair" onclick="sair()">Sair do Sistema</button>
+
+        </div>
+    </header>
 
     <div class="menu">
 
@@ -21,29 +30,69 @@
             <p class="subtitulo-menu">SISTEMA DE MONITORAMENTO FERROVIÁRIO</p>
         </div>
 
-        <div id="botoes-menu">
-            <button class="botao-menu" id="botao-menu-tela-inicial" onclick="telaInicial()"><img
-                    class="imagem-botao-menu" src="../assets/img/tela-inicial.png" alt="tela-inicial"> Tela
-                inicial</button>
-            <button class="botao-menu" id="botao-menu-cadastro-sensores" onclick="cadastroSensores()"><img
-                    class="imagem-botao-menu" src="../assets/img/cadastro-sensores.png" alt="cadastro-sensores">
-                Cadastro de Sensores e
-                Trens</button>
-            <button class="botao-menu" id="botao-menu-monitoramento" onclick="monitoramentoTempoReal()"><img
-                    class="imagem-botao-menu" src="../assets/img/monitoramento-tempo.png" alt="monitoramento">
-                Monitoramento em tempo
-                Real</button>
-            <button class="botao-menu-atual" id="botao-menu-cadastro-relatorios" onclick="cadastroRelatorios()"><img
-                    class="imagem-botao-menu" src="../assets/img/cadastro-relatorios.png" alt="cadastro-relatorios">
-                Cadastro de
-                Relatórios</button>
-            <button class="botao-menu" id="botao-menu-usuarios-cadastrados" onclick="usuariosCadastrados()"><img
-                    class="imagem-botao-menu" src="../assets/img/usuarios.png" alt="usuarios-cadastrados">
-                Usuários cadastrados</button>
-            <button class="botao-menu" id="botao-menu-sair-sistema"><img class="imagem-botao-menu"
-                    src="../assets/img/sair.png" alt="sair">Sair do Sistema</button>
-        </div>
+       <div id="botoes-menu">
+                <button class="botao-menu" id="botao-menu-tela-inicial" onclick="telaInicial()"><img
+                        class="imagem-botao-menu" src="../assets/img/tela-inicial.png" alt="tela-inicial"> Tela
+                    inicial</button>
+                <button class="botao-menu" id="botao-menu-cadastro-sensores" onclick="visualizacaoSensores()"><img
+                        class="imagem-botao-menu" src="../assets/img/cadastro-sensores.png" alt="cadastro-sensores">
+                    Visualização de Sensores</button>
+                <button class="botao-menu" id="botao-menu-cadastro-trens" onclick="visualizacaoTrens()"> <img
+                        class="imagem-botao-menu" src="../assets/img/trem-botao.png" alt="trem-botao">
+                    Visualização de trens
+                </button>
+                <button class="botao-menu" id="botao-menu-monitoramento" onclick="monitoramentoTempoReal()"><img
+                        class="imagem-botao-menu" src="../assets/img/monitoramento-tempo.png" alt="monitoramento">
+                    Monitoramento em tempo
+                    Real</button>
+                <button class="botao-menu-atual" id="botao-menu-cadastro-relatorios" onclick="cadastroRelatorios()"><img
+                        class="imagem-botao-menu" src="../assets/img/cadastro-relatorios.png" alt="cadastro-relatorios">
+                    Cadastro de
+                    Relatórios</button>
+                <button class="botao-menu" id="botao-menu-usuarios-cadastrados" onclick="usuariosCadastrados()"><img
+                        class="imagem-botao-menu" src="../assets/img/usuarios.png" alt="usuarios-cadastrados">
+                    Usuários cadastrados</button>
+            </div>
     </div>
+
+<div class="nova-caixa">
+
+
+
+<h1 id="texto-da-pagina">Visualização de Relatórios</h1>
+
+
+
+
+
+<div class="nova-caixa"></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</div>
+
+
+
+
 
     <script src="../scripts/script.js"></script>
 </body>
