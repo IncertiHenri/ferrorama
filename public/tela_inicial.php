@@ -31,21 +31,21 @@
 
             <div id="botoes-menu">
                 <button class="botao-menu-atual" id="botao-menu-tela-inicial" onclick="telaInicial()"><img
-                        class="imagem-botao-menu" src="../assets/img/tela-inicial.png" alt="tela-inicial"> Tela
+                        class="imagem-botao-menu" src="../assets/img/tela_inicial.png" alt="tela-inicial"> Tela
                     inicial</button>
                 <button class="botao-menu" id="botao-menu-cadastro-sensores" onclick="visualizacaoSensores()"><img
-                        class="imagem-botao-menu" src="../assets/img/cadastro-sensores.png" alt="cadastro-sensores">
+                        class="imagem-botao-menu" src="../assets/img/cadastro_sensores.png" alt="cadastro-sensores">
                     Visualização de Sensores</button>
                 <button class="botao-menu" id="botao-menu-cadastro-trens" onclick="visualizacaoTrens()"> <img
-                        class="imagem-botao-menu" src="../assets/img/trem-botao.png" alt="trem-botao">
+                        class="imagem-botao-menu" src="../assets/img/trem_botao.png" alt="trem-botao">
                     Visualização de trens
                 </button>
                 <button class="botao-menu" id="botao-menu-monitoramento" onclick="monitoramentoTempoReal()"><img
-                        class="imagem-botao-menu" src="../assets/img/monitoramento-tempo.png" alt="monitoramento">
+                        class="imagem-botao-menu" src="../assets/img/monitoramento_tempo.png" alt="monitoramento">
                     Monitoramento em tempo
                     Real</button>
                 <button class="botao-menu" id="botao-menu-cadastro-relatorios" onclick="cadastroRelatorios()"><img
-                        class="imagem-botao-menu" src="../assets/img/cadastro-relatorios.png" alt="cadastro-relatorios">
+                        class="imagem-botao-menu" src="../assets/img/cadastro_relatorios.png" alt="cadastro-relatorios">
                     Cadastro de
                     Relatórios</button>
                 <button class="botao-menu" id="botao-menu-usuarios-cadastrados" onclick="usuariosCadastrados()"><img
@@ -64,25 +64,25 @@
                     sensores e trens, visualize relatórios e monitore os usuários do sistema de forma prática, rápida e
                     eficiente.</p>
                     </div>
-                    <img src="../assets/img/trem-boas-vindas.png" alt="Trem" class="imagem-trem-boas-vindas">
+                    <img src="../assets/img/trem_boas_vindas.png" alt="Trem" class="imagem-trem-boas-vindas">
             </div>
 
             <div class="container-botoes">
 
                 <button class="botao-tela-inicial" onclick="botaoTelaInicial()">
-                    <img src="../assets/img/cadastro-sensores.png" alt="Cadastro de Sensores e Trens"
+                    <img src="../assets/img/cadastro_sensores.png" alt="Cadastro de Sensores e Trens"
                         class="imagem-cadastro-sensores">
                     <span>Cadastro de Sensores e Trens</span>
                 </button>
 
                 <button class="botao-tela-inicial" onclick="botaoTelaInicial()">
-                    <img src="../assets/img/monitoramento-tempo.png" alt="Monitoramento em Tempo Real"
+                    <img src="../assets/img/monitoramento_tempo.png" alt="Monitoramento em Tempo Real"
                         class="imagem-cadastro-sensores">
                     <span>Monitoramento em Tempo Real</span>
                 </button>
 
                 <button class="botao-tela-inicial" onclick="botaoTelaInicial()">
-                    <img src="../assets/img/cadastro-relatorios.png" alt="Cadastro de Relatórios"
+                    <img src="../assets/img/cadastro_relatorios.png" alt="Cadastro de Relatórios"
                         class="imagem-cadastro-sensores">
                     <span>Cadastro de Relatórios</span>
                 </button>

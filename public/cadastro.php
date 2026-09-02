@@ -44,7 +44,7 @@
     </div>
 
     <div id="imagem-inicial">
-        <img id="imagem-estacao" src="../assets/img/estacao2.png" alt="estacao">
+        <img id="imagem-estacao" src="../assets/img/estacao_2.png" alt="estacao">
     </div>
 
     <script src="../scripts/script.js"></script>

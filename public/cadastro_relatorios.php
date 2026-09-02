@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../assets/style/style.css">
-    <title>Document</title>
+    <title>Cadastro de Relatórios</title>
 </head>
 
 <body id="body-cadastro-relatorios">
@@ -37,7 +37,7 @@
 
             <div class="relatorio-informacao-pequena">
                 <div class="bolinhas-imagem">
-                    <img class="imagens-grandes-relatorio" src="../assets/img/consumo-medio.png" alt="consumo">
+                    <img class="imagens-grandes-relatorio" src="../assets/img/consumo_medio.png" alt="consumo">
                 </div>
                 <h2>Consumo média</h2>
                 <p>75%</p>

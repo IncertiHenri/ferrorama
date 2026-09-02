@@ -32,21 +32,21 @@
 
        <div id="botoes-menu">
                 <button class="botao-menu" id="botao-menu-tela-inicial" onclick="telaInicial()"><img
-                        class="imagem-botao-menu" src="../assets/img/tela-inicial.png" alt="tela-inicial"> Tela
+                        class="imagem-botao-menu" src="../assets/img/tela_inicial.png" alt="tela-inicial"> Tela
                     inicial</button>
                 <button class="botao-menu" id="botao-menu-cadastro-sensores" onclick="visualizacaoSensores()"><img
-                        class="imagem-botao-menu" src="../assets/img/cadastro-sensores.png" alt="cadastro-sensores">
+                        class="imagem-botao-menu" src="../assets/img/cadastro_sensores.png" alt="cadastro-sensores">
                     Visualização de Sensores</button>
                 <button class="botao-menu" id="botao-menu-cadastro-trens" onclick="visualizacaoTrens()"> <img
-                        class="imagem-botao-menu" src="../assets/img/trem-botao.png" alt="trem-botao">
+                        class="imagem-botao-menu" src="../assets/img/trem_botao.png" alt="trem-botao">
                     Visualização de trens
                 </button>
                 <button class="botao-menu" id="botao-menu-monitoramento" onclick="monitoramentoTempoReal()"><img
-                        class="imagem-botao-menu" src="../assets/img/monitoramento-tempo.png" alt="monitoramento">
+                        class="imagem-botao-menu" src="../assets/img/monitoramento_tempo.png" alt="monitoramento">
                     Monitoramento em tempo
                     Real</button>
                 <button class="botao-menu-atual" id="botao-menu-cadastro-relatorios" onclick="cadastroRelatorios()"><img
-                        class="imagem-botao-menu" src="../assets/img/cadastro-relatorios.png" alt="cadastro-relatorios">
+                        class="imagem-botao-menu" src="../assets/img/cadastro_relatorios.png" alt="cadastro-relatorios">
                     Cadastro de
                     Relatórios</button>
                 <button class="botao-menu" id="botao-menu-usuarios-cadastrados" onclick="usuariosCadastrados()"><img
