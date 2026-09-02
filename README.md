@@ -4,7 +4,7 @@ A proposta do sistema é criar um aplicativo que monitore o funcionamento das lo
 
 # Metodologias de desenvolvimento que serão utilizadas:
 - Scrum
-- Espiral
+- XP
 - Prototipação 
 - Kanban
 
@@ -14,7 +14,7 @@ O método Kanban será utilizado para esclarecer o que cada membro da equipe dev
 
 A Prototipação será utilizada para criar um modelo visual do site pronto, facilitando na hora de fazer programar, pois já teremos um modelo correto a seguir. 
 
-Já a Espiral será utilizada para a implementação de novas funcionalidades e para análise e gestão de riscos, em vez de seguir um fluxo linear como o modelo cascata, ele organiza o projeto em ciclos em formato de espiral, onde cada volta representa uma fase completa de desenvolvimento.
+O método XP será utilizado para verificação e análise de 2 grupos de 2 integrantes cada da equipe, assim mantendo a eficiência enquanto um faz, outro testa, vice versa.
 
 ##  Funcionalidades
 O sistema irá cadastrar todos os funcionários que utilizarão o sistema, permitirá o cadastro de trens, rotas e sensores. Ele também irá permitir visualizar a lista de sensores e os relatórios criados, juntamente com os detalhes de cada sensor, como ID do sensor, localização e tipo de dado monitorado. Também haverá a exibição da velocidade, localização e status operacional ao usuário. Além  de permitir a exclusão de sensores caso ainda não haja dados vinculados a ele.  
