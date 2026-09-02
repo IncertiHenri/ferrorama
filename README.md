@@ -123,12 +123,4 @@ O sistema irá cadastrar todos os funcionários que utilizarão o sistema, permi
 
 - | RNF20 | O sistema deve exibir uma tela de confirmação quando o usuário escolhe excluir um sensor.
 
-
-## Integrantes da equipe
-- Thais Duarte
-- Henrique Incerti
-- Serenna Tavares 
-- Natan Vitor 
-
-## Exintegrantes da equipe
-- Annie Marie  
+ 
