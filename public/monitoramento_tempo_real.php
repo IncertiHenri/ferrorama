@@ -1,137 +1,167 @@
+```html id="8p3k21"
 <html lang="en">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="../assets/style/style.css">
+
     <title>Monitoramento em Tempo Real</title>
 </head>
 
-<body id="body-monitoramento">
+<body id="body_monitoramento">
 
     <header>
-        <div id="navbar-tela-inicial">
+        <div id="navbar_tela_inicial">
             <p>Olá, Admin</p>
-            <img src="../assets/img/usuario.png" alt="Admin" class="imagem-usuario">
-            <button id="botao-sair" onclick="sair()">Sair do Sistema</button>
-
+            <img src="../assets/img/usuario.png" alt="admin" class="imagem_usuario">
+            <button id="botao_sair" onclick="sair()">Sair do Sistema</button>
         </div>
     </header>
 
-    <main id="main-monitoramento">
+    <main id="main_monitoramento">
+
         <div class="menu">
 
+            <img src="../assets/img/trem.PNG" alt="trem" class="trem_menu">
 
-            <img src="../assets/img/trem.PNG" alt="trem" class="trem-menu">
-            <div class="inline-block">
-                <div class="inline-flex">
-                    <h1 class="titulo-menu">ASTRAL</h1>
-                    <h4 class="titulo2-menu">EXPRESS</h4>
+            <div class="inline_block">
+
+                <div class="inline_flex">
+                    <h1 class="titulo_menu">ASTRAL</h1>
+                    <h4 class="titulo2_menu">EXPRESS</h4>
                 </div>
-                <p class="subtitulo-menu">SISTEMA DE MONITORAMENTO FERROVIÁRIO</p>
+
+                <p class="subtitulo_menu">SISTEMA DE MONITORAMENTO FERROVIÁRIO</p>
+
             </div>
-            <div id="botoes-menu">
-                <button class="botao-menu" id="botao-menu-tela-inicial" onclick="telaInicial()"><img
-                        class="imagem-botao-menu" src="../assets/img/tela-inicial.png" alt="tela-inicial"> Tela
-                    inicial</button>
-                <button class="botao-menu" id="botao-menu-cadastro-sensores" onclick="visualizacaoSensores()"><img
-                        class="imagem-botao-menu" src="../assets/img/cadastro-sensores.png" alt="cadastro-sensores">
-                    Visualização de Sensores</button>
-                <button class="botao-menu" id="botao-menu-cadastro-trens" onclick="visualizacaoTrens()"> <img
-                        class="imagem-botao-menu" src="../assets/img/trem-botao.png" alt="trem-botao">
-                    Visualização de trens
+
+            <div id="botoes_menu">
+
+                <button class="botao_menu" id="botao_menu_tela_inicial" onclick="telaInicial()">
+                    <img class="imagem_botao_menu" src="../assets/img/tela-inicial.png" alt="tela_inicial"> Tela inicial
                 </button>
-                <button class="botao-menu-atual" id="botao-menu-monitoramento" onclick="monitoramentoTempoReal()"><img
-                        class="imagem-botao-menu" src="../assets/img/monitoramento-tempo.png" alt="monitoramento">
-                    Monitoramento em tempo
-                    Real</button>
-                <button class="botao-menu" id="botao-menu-cadastro-relatorios" onclick="cadastroRelatorios()"><img
-                        class="imagem-botao-menu" src="../assets/img/cadastro-relatorios.png" alt="cadastro-relatorios">
-                    Cadastro de
-                    Relatórios</button>
-                <button class="botao-menu" id="botao-menu-usuarios-cadastrados" onclick="usuariosCadastrados()"><img
-                        class="imagem-botao-menu" src="../assets/img/usuarios.png" alt="usuarios-cadastrados">
-                    Usuários cadastrados</button>
+
+                <button class="botao_menu" id="botao_menu_cadastro_sensores" onclick="visualizacaoSensores()">
+                    <img class="imagem_botao_menu" src="../assets/img/cadastro-sensores.png" alt="cadastro_sensores"> Visualização de Sensores
+                </button>
+
+                <button class="botao_menu" id="botao_menu_cadastro_trens" onclick="visualizacaoTrens()">
+                    <img class="imagem_botao_menu" src="../assets/img/trem-botao.png" alt="trem_botao"> Visualização de trens
+                </button>
+
+                <button class="botao_menu_atual" id="botao_menu_monitoramento" onclick="monitoramentoTempoReal()">
+                    <img class="imagem_botao_menu" src="../assets/img/monitoramento-tempo.png" alt="monitoramento"> Monitoramento em tempo real
+                </button>
+
+                <button class="botao_menu" id="botao_menu_cadastro_relatorios" onclick="cadastroRelatorios()">
+                    <img class="imagem_botao_menu" src="../assets/img/cadastro-relatorios.png" alt="cadastro_relatorios"> Cadastro de Relatórios
+                </button>
+
+                <button class="botao_menu" id="botao_menu_usuarios_cadastrados" onclick="usuariosCadastrados()">
+                    <img class="imagem_botao_menu" src="../assets/img/usuarios.png" alt="usuarios_cadastrados"> Usuários cadastrados
+                </button>
+
             </div>
+
         </div>
 
-        <div id="tabelas-monitoramento">
+        <div id="tabelas_monitoramento">
 
-            <div class="fundo-tabela-monitoramento">
-                <div class="tabela-monitoramento">
+            <div class="fundo_tabela_monitoramento">
+
+                <div class="tabela_monitoramento">
 
                     <table>
+
                         <tr>
                             <th>ID</th>
                             <th>Velocidade</th>
                             <th>Status</th>
                         </tr>
+
                         <tr>
-                            <td id="linha-1">01</td>
+                            <td id="linha_1">01</td>
                             <td>100 km/h</td>
                             <td>Normal</td>
                         </tr>
+
                         <tr>
-                            <td id="linha-2">02</td>
+                            <td id="linha_2">02</td>
                             <td>140 Km/h</td>
                             <td>Alerta</td>
                         </tr>
+
                         <tr>
-                            <td id="linha-3">03</td>
+                            <td id="linha_3">03</td>
                             <td>80 km/h</td>
                             <td>Normal</td>
                         </tr>
+
                         <tr>
-                            <td id="linha-4">04</td>
+                            <td id="linha_4">04</td>
                             <td>80 km/h</td>
                             <td>Normal</td>
                         </tr>
+
                         <tr>
-                            <td id="linha-5">05</td>
+                            <td id="linha_5">05</td>
                             <td>100 km/h</td>
                             <td>Normal</td>
                         </tr>
+
                         <tr>
-                            <td id="linha-6">06</td>
+                            <td id="linha_6">06</td>
                             <td>100 km/h</td>
                             <td>Normal</td>
                         </tr>
+
                         <tr>
-                            <td id="linha-7">07</td>
+                            <td id="linha_7">07</td>
                             <td>80 km/h</td>
                             <td>Falha</td>
                         </tr>
+
                         <tr>
-                            <td id="linha-8">08</td>
+                            <td id="linha_8">08</td>
                             <td>120 km/h</td>
                             <td>Normal</td>
                         </tr>
+
                         <tr>
-                            <td id="linha-9">09</td>
+                            <td id="linha_9">09</td>
                             <td>35 km/h</td>
                             <td>Normal</td>
                         </tr>
+
                         <tr>
-                            <td id="linha-10">10</td>
+                            <td id="linha_10">10</td>
                             <td>120 km/h</td>
                             <td>Alerta</td>
                         </tr>
+
                     </table>
+
                 </div>
+
             </div>
 
+            <div class="fundo_tabela_mapa">
 
-            <div class="fundo-tabela-mapa">
-                <div class="mapa-monitoramento">
-                    <img id="mapa-trilho" src="../assets/img/mapa-trilho.png" alt="Mapa de monitoramento">
+                <div class="mapa_monitoramento">
+                    <img id="mapa_trilho" src="../assets/img/mapa-trilho.png" alt="mapa_de_monitoramento">
                 </div>
+
             </div>
+
         </div>
 
     </main>
 
-
     <script src="../scripts/script.js"></script>
+
 </body>
 
 </html>
+```

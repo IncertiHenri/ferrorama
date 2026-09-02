@@ -3,51 +3,66 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
     <link rel="stylesheet" href="../assets/style/style.css">
+
     <title>Cadastro</title>
 </head>
 
-<body id="body-login">
+<body id="body_login">
 
-    <div class="login-esquerdo">
-        <div class="titulo-site">
+    <div class="login_esquerdo">
+
+        <div class="titulo_site">
+
             <img src="../assets/img/trem.PNG" alt="trem" class="trem">
-            <div class="inline-block">
-                <div class="inline-flex">
-                    <h1 class="titulo-login">ASTRAL</h1>
-                    <h4 class="titulo2-login">EXPRESS</h4>
+
+            <div class="inline_block">
+
+                <div class="inline_flex">
+                    <h1 class="titulo_login">ASTRAL</h1>
+                    <h4 class="titulo2_login">EXPRESS</h4>
                 </div>
-                <p class="subtitulo-login">SISTEMA DE MONITORAMENTO FERROVIÁRIO</p>
+
+                <p class="subtitulo_login">SISTEMA DE MONITORAMENTO FERROVIÁRIO</p>
+
             </div>
+
         </div>
 
-        <div class="campo-login">
+        <div class="campo_login">
 
             <h3 class="titulo3">Faça seu cadastro para iniciar sua jornada!</h3>
 
             <form id="login">
+
                 <label for="email">E-mail:</label>
                 <input type="email" id="email">
 
                 <label for="senha">Senha:</label>
                 <input type="password" id="senha">
 
+                <button type="submit" id="botao_login">Cadastrar</button>
 
-                <button type="submit" id="botao-login">Cadastrar</button>
-
-                <p class="texto-cadastro">
+                <p class="texto_cadastro">
                     Já fez o cadastro?
                     <a href="index.html">Faça login!</a>
                 </p>
+
             </form>
+
         </div>
+
     </div>
 
-    <div id="imagem-inicial">
-        <img id="imagem-estacao" src="../assets/img/estacao_2.png" alt="estacao">
+    <div id="imagem_inicial">
+
+        <img id="imagem_estacao" src="../assets/img/estacao_2.png" alt="estacao">
+
     </div>
 
     <script src="../scripts/script.js"></script>
+
 </body>
 
 </html>
