@@ -3,7 +3,7 @@ function alerta() {
 }
 
 function telaInicial() {
-     window.location.href = "../public/tela_inicial.html";
+    window.location.href = "../public/tela_inicial.html";
 }
 
 function visualizacaoSensores() {
@@ -27,7 +27,6 @@ function visualizacaoTrens() {
 }
 
 document.getElementById("login").onsubmit = (e) => {
-
     e.preventDefault();
 
     let email = document.getElementById("email").value;
@@ -38,14 +37,18 @@ document.getElementById("login").onsubmit = (e) => {
 
     if (!senha) return alert("Informe uma senha válida!");
 
-    let emailCorreto = "xxx@gmail.com"; // teste de email
-    let senhaCorreta = 1; // teste de senha
+    // Teste de email
+    let emailCorreto = "xxx@gmail.com";
+
+    // Teste de senha
+    let senhaCorreta = 1;
 
     if (email === emailCorreto && senha === senhaCorreta) {
         verificacao = true;
+
         window.location.href = "public/tela_inicial.html";
+
         alert("Login realizado com sucesso!");
-     
     } else {
         return alert("E-mail ou senha incorretos!");
     }
@@ -54,9 +57,7 @@ document.getElementById("login").onsubmit = (e) => {
 let formularioCadastro = document.getElementById("cadastro");
 
 if (formularioCadastro) {
-
     formularioCadastro.onsubmit = (e) => {
-
         e.preventDefault();
 
         let nome = document.getElementById("nome").value;

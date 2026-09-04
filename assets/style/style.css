@@ -18,7 +18,6 @@
     --roxo: #5e17eb;
 }
 
-
 #body_login {
     background-color: var(--fundo);
     padding: 50px;
@@ -170,13 +169,12 @@ label {
     position: absolute;
 }
 
-.imagem_botao_menu{
+.imagem_botao_menu {
     width: 50px;
     height: 50px;
-   
 }
 
-.botao_menu{
+.botao_menu {
     background-color: var(--verde-medio-musgo);
     border: 0;
     border-radius: 50px;
@@ -193,7 +191,7 @@ label {
     width: 100%;
 }
 
-.botao_menu_atual{
+.botao_menu_atual {
     background-color: var(--verde-musgo);
     border: 0;
     border-radius: 50px;
@@ -210,13 +208,12 @@ label {
     width: 100%;
 }
 
-#botoes_menu{
+#botoes_menu {
     margin-top: 20px;
 }
 
-#pagina_relatorios{
+#pagina_relatorios {
     margin: 0;
-
 }
 
 .texto_cadastro {
@@ -235,78 +232,76 @@ label {
     text-decoration: underline;
 }
 
-.flex{
+.flex {
     display: flex;
 }
 
-#usuarios_cadastrados{
+#usuarios_cadastrados {
     background-color: var(--verde-musgo);
     margin: 0;
 }
 
-#body_monitoramento{
+#body_monitoramento {
     background-color: var(--verde-musgo);
     margin: 0;
 }
 
-#main_monitoramento{
+#main_monitoramento {
     display: flex;
 }
 
-#body_cadastro_relatorios{
+#body_cadastro_relatorios {
     background-color: var(--verde-musgo);
     margin: 0;
 }
 
-#relatorios_analiticos{
+#relatorios_analiticos {
     background-color: var(--verde-medio-musgo);
 }
 
-.titulo_relatorios{
+.titulo_relatorios {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: var(--branco);
 }
 
-.conteiners_pequenos{
+.conteiners_pequenos {
     background-color: var(--verde-escuro-musgo);
 }
 
-.bolinhas_imagem{
+.bolinhas_imagem {
     background-color: var(--verde-musgo);
     border-radius: 100%;
     width: fit-content;
     margin: 10px;
 }
 
-.imagens_grandes_relatorio{
+.imagens_grandes_relatorio {
     height: 70px;
     width: auto;
     margin: 15px;
     margin-top: 10px;
 }
 
-
-#main_tela_inicial{
+#main_tela_inicial {
     display: flex;
 }
 
-
-#cadastro_sensores{
+#cadastro_sensores {
     margin: 0;
     background-color: var(--verde-musgo);
 }
 
-.titulo_cadastro_sensores{
+.titulo_cadastro_sensores {
     color: var(--branco);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.informacoes_cadastro_sensores{
+.informacoes_cadastro_sensores {
     color: var(--branco);
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.campo_verde_medio_sensores{
+.campo_verde_medio_sensores {
     background-color: var(--verde-medio-musgo);
     padding: 10px;
     border-radius: 20px;
@@ -314,13 +309,13 @@ label {
     margin-left: 40%;
 }
 
-.novos_sensores{
+.novos_sensores {
     background-color: var(--verde-escuro-musgo);
     padding: 10px;
     border-radius: 20px;
 }
 
-.campo_borda_verde{
+.campo_borda_verde {
     background-color: var(--verde-escuro-musgo);
     border: 2px solid var(--verde-musgo);
     display: flex;
@@ -333,20 +328,20 @@ label {
     padding-bottom: 20px;
 }
 
-.flex_column{
+.flex_column {
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
 }
 
-.campo_dados{
+.campo_dados {
     background-color: var(--verde-musgo);
     color: var(--branco);
     border: 1px solid var(--verde-preto-musgo);
 }
 
-#botao_cadastrar_sensor{
+#botao_cadastrar_sensor {
     background-color: var(--verde-musgo);
     color: var(--branco);
     border: 0;
@@ -356,7 +351,7 @@ label {
     border-radius: 30px;
 }
 
-.borda_verde_flex_titulo{
+.borda_verde_flex_titulo {
     border: 2px solid var(--verde-musgo);
     background-color: var(--verde-escuro-musgo);
     border-radius: 5px;
@@ -366,9 +361,7 @@ label {
     justify-content: center;
 }
 
-
-
-/* SERENNA  */
+/* SERENNA */
 
 #body_tela_inicial {
     background-color: var(--verde-musgo);
@@ -422,7 +415,6 @@ label {
     width: 70px;
     height: 70px;
     margin-left: 10px;
-
 }
 
 #botao_sair {
@@ -433,7 +425,6 @@ label {
     font-size: 20px;
     padding: 20px;
     cursor: pointer;
-
 }
 
 .fundo_tabela_monitoramento {
@@ -497,12 +488,12 @@ table {
     border-spacing: 40px 20px;
 }
 
-.conteudo_principal{
+.conteudo_principal {
     display: flex;
     margin-left: 28%;
 }
 
-.area_boas_vindas{
+.area_boas_vindas {
     background: var(--verde-medio-musgo);
     color: var(--branco);
     border: 4px solid var(--preto);
@@ -520,73 +511,74 @@ table {
     display: flex;
 }
 
-.conteudo_principal{
+.conteudo_principal {
     display: flex;
     flex-direction: column;
     margin-top: 170px;
 }
 
-.imagem_trem_boas_vindas{
+.imagem_trem_boas_vindas {
     width: 300px;
     height: auto;
 }
 
-#visualizacao_trens{
+#visualizacao_trens {
     margin: 0;
     background-color: var(--verde-musgo);
 }
 
-#linha_1{
+#linha_1 {
     color: var(--azul);
     font-weight: bold;
 }
 
-#linha_2{
+#linha_2 {
     color: var(--vermelho);
     font-weight: bold;
 }
 
-#linha_3{
+#linha_3 {
     color: var(--verde);
     font-weight: bold;
 }
 
-#linha_4{
+#linha_4 {
     color: var(--amarelo-dourado);
     font-weight: bold;
 }
 
-#linha_5{
+#linha_5 {
     color: var(--marrom-escuro);
     font-weight: bold;
 }
 
-#linha_6{
+#linha_6 {
     color: var(--laranja);
     font-weight: bold;
 }
 
-#linha_7{
+#linha_7 {
     color: var(--verde-claro);
     font-weight: bold;
 }
 
-#linha_8{
+#linha_8 {
     color: var(--rosa);
     font-weight: bold;
 }
 
-#linha_9{
+#linha_9 {
     color: var(--branco);
     font-weight: bold;
 }
 
-#linha_10{
+#linha_10 {
     color: var(--roxo);
     font-weight: bold;
 }
 
 /* THAIS */
+
 #visualizacao_sensores {
     background-color: var(--verde-musgo);
     color: var(--branco);
@@ -625,16 +617,16 @@ table {
     align-items: center;
 }
 
-td{
-  text-indent: 15px;
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-}
-
-#titulo_tabela{
+td {
+    text-indent: 15px;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-#botao_sensor_novo{
+#titulo_tabela {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+#botao_sensor_novo {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     background-color: var(--verde-musgo);
     border-radius: 15px;
@@ -643,7 +635,7 @@ td{
     padding: 10px 20px;
 }
 
-.borda_verde{
+.borda_verde {
     border: 2px solid var(--verde-musgo);
     background-color: var(--verde-escuro-musgo);
     border-radius: 5px;
@@ -651,7 +643,8 @@ td{
     margin-top: 10px;
     margin-bottom: 10px;
 }
-.borda_verde_flex{
+
+.borda_verde_flex {
     border: 2px solid var(--verde-musgo);
     background-color: var(--verde-escuro-musgo);
     border-radius: 5px;
@@ -663,21 +656,14 @@ td{
     padding-bottom: 5px;
 }
 
-/* ANNIE*/
+/* ANNIE */
 
-.nova_caixa{
+.nova_caixa {
     width: 100%;
     max-width: 100%;
     height: 100%;
     marging: 50px auto;
-    background-color:var(--verde-musgo);
-    
+    background-color: var(--verde-musgo);
 }
 
-
-
-
-
-
-
-
+/* NATHAN */
